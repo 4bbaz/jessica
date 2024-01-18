@@ -1,0 +1,172 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Epilogue;
+}
+
+/* section{
+
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 1627px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.con1 {
+  background-image: url("/public/images/vector-1.svg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.head {
+  font-size: 36px;
+  font-style: normal;
+  line-height: 130%;
+  width: 325px;
+  color: #fff;
+}
+
+.title {
+  font-weight: 400;
+}
+.subtitle {
+  font-weight: 700;
+}
+
+.details {
+  line-height: 31px;
+  width: 325px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.details_desktop{
+  display: none;
+}
+
+.con2 {
+  padding: 100px 0px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.item > p {
+  font-size: 18px;
+  font-weight: 500;
+  width: 252px;
+}
+
+
+.content3{
+  display: flex;
+  width: 325px;
+  padding: 25px 30px;
+  flex-direction: column;
+  gap: 25px;
+  background: #F4F4F4;
+  box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.20);
+  border-radius: 10px;
+  justify-items: center;
+  justify-content: center;
+  
+  
+}
+
+.content3 > p{
+  font-size: 24px;
+  font-weight: 700;
+  width: 265px;
+}
+
+.content3 > a{
+  text-decoration: none;
+  background: #1744D6;
+  padding: 14px 17px;
+  border-radius: 3px;
+  color: #FFF;
+  width: 265px;
+  text-align: center;
+  
+}
+
+@media (min-width: 1440px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .con1 {
+    background-image: url("/public/images/vector-2.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1101.352px;
+    align-items: flex-start;
+    padding-left: 150px;
+  }
+
+  .head {
+    font-size: 42px;
+    line-height: 54.6px;
+    width: 480px;
+    
+  }
+  .details {
+    display: none;
+  }
+  .details_desktop{
+    color: #FFF;
+    display: block;
+    width: 480px;
+    
+  }
+  .details_desktop > p{
+    padding: 10px 0px;
+  }
+
+  .con2{
+    padding-top: 0px;
+    justify-content: flex-start;
+  }
+  .item > p {
+    width: 398px;
+  }
+
+  .content3{
+   position: absolute;
+   width: 1140px;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   
+    
+  }
+
+  .content3 > p{
+    width: 741px;
+  }
+
+  .content3 > a{
+    border-radius: 3px;
+    color: #FFF;
+    width: 265px;
+    text-align: center;
+    
+  }
+
+}
